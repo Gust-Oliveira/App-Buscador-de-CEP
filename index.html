@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App cep</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id="header">
+        <h1>Buscador de CEP</h1>
+    </div>
+    <div id="container">
+        <div id="container-inputs">
+            <input type="text" id="cep" placeholder="CEP">
+            <input type="text" id="endereco" placeholder="Endereço">
+            <input type="text" id="bairro" placeholder="Bairro">
+            <input type="text" id="cidade" placeholder="Cidade">
+            <input type="text" id="uf" placeholder="UF">
+        </div>
+        <div id="container-buttons">
+            <button type="button" id="pesquisar" onclick="pesquisarCep()">Pesquisar</button>
+            <button type="button" id="apagar" onclick="apagarCep()">Apagar</button>
+        </div>
+        
+    </div>
+    <script src="cep.js"></script>
+</body>
+</html>
